@@ -404,13 +404,14 @@ span {
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
     .header {
         padding: 2rem 3%;
     }
 
     section {
-        padding: 10rem 3% 2rem;
+        min-height: auto;
+        padding: 6rem 5% 3rem;
     }
 
     .footer {
