@@ -545,3 +545,16 @@ span {
     }
 
 }
+
+/* ===== FIX CONTACT HEADING CENTER ===== */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .heading {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 4rem;
+}
