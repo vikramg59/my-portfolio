@@ -25,11 +25,11 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 section {
-    min-width: 100vh;
+    min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
 
@@ -123,6 +123,8 @@ span {
 
 .home-content p {
     font-size: 1.6rem;
+    margin: 1.5rem 0 2rem;
+    max-width: 600px;
 }
 
 
@@ -505,8 +507,20 @@ span {
         font-size: 50%;
     }
 
+   .contact form .input-box {
+        flex-direction: column;
+    }
+
     .contact form .input-box input {
         width: 100%;
+    }
+
+    .contact form {
+        padding: 0 1rem;
+    }
+
+    .heading {
+        font-size: 3.5rem;
     }
 }
 
